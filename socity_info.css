@@ -1,0 +1,85 @@
+	body{
+		background: black;
+	}
+	.container{
+		background: white;
+	}
+	.navbar{
+		margin-top: 15px;
+		padding: 9px;
+	}
+	.navbar-search{
+		margin-top: 3px;
+		float: left;
+	}
+	.dropdown{
+		float: right;
+		padding: 5px;
+	}
+
+	.panel .panel-heading{
+		background: black;
+		color: white;
+		font-family: arial;
+		text-align: center;
+	}
+	.heading h2{
+		padding: 5px;
+		color: black;
+		font-family: arial;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.well{
+		background: black;
+		color: white;
+		text-align: center;
+		font-family: arial;
+
+	}
+
+.icon{
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+.icon li{
+	display: inline;
+	margin:0 5px;
+}
+.icon .facebook,.icon .twitter,.icon .linkedin, .icon .google-plus{
+	background: gray;
+}
+.icon .fa{
+	margin: auto;
+	color: white;
+	padding: 14px;
+	transition: 0.9s;
+}
+.icon li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+
+.icon .facebook:hover{
+	background: #3b5998;
+}
+.icon .twitter:hover{
+	background: #33ccff;
+}
+.icon .linkedin:hover{
+	background: #007bb7;
+}
+.icon .google-plus:hover{
+	background: #BD3518;
+}
+.icon .fa:hover{
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
